@@ -23,6 +23,7 @@ White = pygame.Color(255,255,255)
 MyWindow = pygame
 MyWindow.init()
 paleta = pygame.image.load("lapiz.png")
+indicator = 10
 line_start = None
 def roundline(srf, color, start, end, radius=1):
     dx = end[0]-start[0]
